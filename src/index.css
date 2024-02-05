@@ -3,10 +3,49 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes nav-anim {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes about-anim {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(15%);
+  }
+}
+
+.text-xxs {
+  font-size: 0.625rem; /* 10px */
+  line-height: 0.75rem; /* 12px */
+}
+
 * {
   font-family: "Roboto", "monospace", "sans-serif";
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .text-shadow {
   text-shadow: 0px 0px 5px black;
+}
+
+.navigation-bar {
+  transform: translateX(150%);
+  animation: nav-anim 1.5s ease-in-out 0s 1 forwards;
+  z-index: 2;
+}
+
+.about-wrapper {
+  transform: translateY(-150%);
+  animation: about-anim 1.5s ease-in-out 0s 1 forwards;
+  z-index: 1;
 }
