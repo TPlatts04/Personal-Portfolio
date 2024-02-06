@@ -21,6 +21,18 @@
   }
 }
 
+@keyframes techstack-anim {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .text-xxs {
   font-size: 0.625rem; /* 10px */
   line-height: 0.75rem; /* 12px */
@@ -38,6 +50,14 @@ body {
   text-shadow: 0px 0px 5px black;
 }
 
+.text-shadow-small {
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.image-shadow {
+  text-shadow: 0px 0px 5px white;
+}
+
 .navigation-bar {
   transform: translateX(150%);
   animation: nav-anim 1.5s ease-in-out 0s 1 forwards;
@@ -48,4 +68,36 @@ body {
   transform: translateY(-150%);
   animation: about-anim 1.5s ease-in-out 0s 1 forwards;
   z-index: 1;
+}
+
+.techstack {
+  background-size: 180% 180%;
+  animation: techstack-anim 4s ease infinite;
+}
+
+li {
+  cursor: pointer;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
