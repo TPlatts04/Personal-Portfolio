@@ -1,6 +1,6 @@
 function Tech() {
   return (
-    <main className="wrapper flex justify-center mt-32" id="tech">
+    <main className="tech-wrapper flex justify-center mt-32" id="tech">
       <div className="techstack bg-gradient-to-r p-10 from-violet-700 to-fuchsia-600 shadow-lg shadow-violet-700 rounded-xl flex flex-col justify-center mb-20">
         <div className="text-center mb-4">
           <h1 className="underline md:text-3xl text-2xl font-light md:mb-10 mb-4 mt-4">My Current Tech Stack</h1>

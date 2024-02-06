@@ -33,6 +33,24 @@
   }
 }
 
+@keyframes techstack-load {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes horiz-rule-load {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
 .text-xxs {
   font-size: 0.625rem; /* 10px */
   line-height: 0.75rem; /* 12px */
@@ -73,6 +91,16 @@ body {
 .techstack {
   background-size: 180% 180%;
   animation: techstack-anim 4s ease infinite;
+}
+
+.tech-wrapper {
+  animation: techstack-load 1.5s ease-in-out 0s 1 forwards;
+  transform: translateX(-150%);
+}
+
+hr {
+  transform: translateX(150%);
+  animation: horiz-rule-load 1.5s ease-in-out 0s 1 forwards;
 }
 
 li {
