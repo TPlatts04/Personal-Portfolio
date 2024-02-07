@@ -9,6 +9,7 @@ function App() {
       <About />
       <hr className="mt-52 border-4 border-dotted border-t-0 w-1/2 border-indigo-700 mx-auto"/>
       <Tech />
+      <hr className="mt-20 border-4 border-dotted border-t-0 w-1/2 border-indigo-700 mx-auto"/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 function Tech() {
   return (
-    <main className="tech-wrapper flex justify-center mt-32" id="tech">
-      <div className="techstack bg-gradient-to-r p-10 from-violet-700 to-fuchsia-600 shadow-lg shadow-violet-700 rounded-xl flex flex-col justify-center mb-20">
+    <main className="tech-wrapper flex md:flex-row flex-col mt-32" id="tech">
+      <div className="techstack max-w-96 bg-gradient-to-r p-10 from-violet-700 to-fuchsia-600 shadow-lg shadow-violet-700 rounded-xl flex flex-col justify-center md:ml-auto md:text-left self-center text-center">
         <div className="text-center mb-4">
           <h1 className="underline md:text-3xl text-2xl font-light md:mb-10 mb-4 mt-4">My Current Tech Stack</h1>
         </div>
@@ -22,6 +22,9 @@ function Tech() {
             <li className="text-shadow-small hover-underline-animation">REST APIs</li>
           </ul>
         </div>
+      </div>
+      <div className="bg-white rounded-xl shadow-lg shadow-white max-w-xl md:mr-auto md:ml-24 md:my-auto mx-auto mt-20">
+        <p className="md:text-2xl sm:text-xl text-lg font-light p-4">I am forever expanding my knowledge within the Web Development field. I have taught myself using multiple resources such as: freeCodeCamp, YouTube and partly the Odin Project. These resources have been useful within my ladder of development, and therefore i feel confident i can produce strong websites for anyone and provide them with adequate code.</p>
       </div>
     </main>
   )
