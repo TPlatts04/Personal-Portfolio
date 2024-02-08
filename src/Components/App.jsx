@@ -1,6 +1,7 @@
 import Navigation from "./Navigation";
 import About from "./About";
 import Tech from "./TechStack";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <hr className="mt-52 border-4 border-dotted border-t-0 w-1/2 border-indigo-700 mx-auto"/>
       <Tech />
       <hr className="mt-20 border-4 border-dotted border-t-0 w-1/2 border-indigo-700 mx-auto"/>
+      <Projects />
     </div>
   );
 }
