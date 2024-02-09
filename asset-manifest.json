@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.2ed4386e.css",
+    "main.js": "/personal-portfolio/static/js/main.e82a13e8.js",
+    "static/media/Astronaut.png": "/personal-portfolio/static/media/Astronaut.4e5126d4a436163eac52.png",
+    "static/media/modern-page.png": "/personal-portfolio/static/media/modern-page.cbff2dd36b8346a72492.png",
+    "static/media/profile-picture.jpg": "/personal-portfolio/static/media/profile-picture.0d80375b3d5b7e95b446.jpg",
+    "static/media/simon-says.png": "/personal-portfolio/static/media/simon-says.d45694774d57f5b3c31b.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.2ed4386e.css.map": "/personal-portfolio/static/css/main.2ed4386e.css.map",
+    "main.e82a13e8.js.map": "/personal-portfolio/static/js/main.e82a13e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ed4386e.css",
+    "static/js/main.e82a13e8.js"
+  ]
+}
