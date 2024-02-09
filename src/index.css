@@ -70,9 +70,42 @@
   font-family: "Roboto", "monospace", "sans-serif";
 }
 
+html,
+body {
+  min-height: 100svh;
+  color: #f1e1f4;
+  background-color: #030104;
+}
+
+.primary {
+  background-color: #9244ab;
+}
+
+.hr-primary {
+  border-color: #9244ab;
+}
+
+.secondary {
+  background-color: #6d2c50;
+}
+
+.accent {
+  box-shadow: 0px 0px 15px #843349;
+  transition: all 150ms ease-in-out;
+}
+
+.text-accent {
+  color: #843349;
+}
+
+/*
 body {
   overflow-x: hidden;
-}
+  background: url("./bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
 
 .text-shadow-small-white {
   text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.6);
@@ -116,6 +149,10 @@ li {
   cursor: pointer;
 }
 
+h4:hover {
+  color: #9244ab;
+}
+
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -137,4 +174,8 @@ li {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+footer a:hover {
+  color: #9244ab;
 }

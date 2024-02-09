@@ -14,21 +14,21 @@ function Navigation() {
   }, 1000);
 
   return (
-    <nav className="navigation-bar fixed flex flex-row justify-around bg-gradient-to-r from-violet-700 to-fuchsia-600 text-white py-2 shadow-md shadow-violet-700 md:text-lg sm:text-md text-xs min-w-full gap-x-2 p-2" >
+    <nav className="navigation-bar fixed flex flex-row justify-around primary py-2 accent md:text-lg sm:text-md text-xs min-w-full gap-x-2 p-2" >
       <div>
-        <a href="#about"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">About Me</h4></a>
+        <a href="#about"><h4 className=" text-shadow hover:scale-110 hover:underline transition-transform mt-1">About Me</h4></a>
       </div>
       <div>
-        <a href="#tech"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Tech Stack</h4></a>
+        <a href="#tech"><h4 className=" text-shadow hover:scale-110 hover:underline transition-transform mt-1">Tech Stack</h4></a>
       </div>
       <div>
-        <a href="#projects"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Projects</h4></a>
+        <a href="#projects"><h4 className=" text-shadow hover:scale-110 hover:underline transition-transform mt-1">Projects</h4></a>
       </div>
       <div>
-        <a href="#contact"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Contact</h4></a>
+        <a href="#contact"><h4 className=" text-shadow hover:scale-110 hover:underline transition-transform mt-1">Contact</h4></a>
       </div>
       <div>
-        <h6 className="text-white text-shadow mt-0.5 m-0 mt-1">{time}</h6>
+        <h6 className=" text-shadow mt-0.5 m-0 mt-1">{time}</h6>
       </div>
     </nav>
   )

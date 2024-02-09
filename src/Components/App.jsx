@@ -13,14 +13,14 @@ function App() {
   }, []) // Will reset position to top of page when user refreshes
 
   return (
-    <div className="App md:scroll-smooth min-h-svh bg-black">
+    <div className="App md:scroll-smooth min-h-svh">
       <Navigation />
       <About />
-      <hr className="mt-52 border-4 border-dotted border-t-0 w-1/2 border-indigo-700 mx-auto"/>
+      <hr className="mt-52 border-4 border-dotted border-t-0 w-1/2 hr-primary mx-auto"/>
       <Tech />
-      <hr className="mt-20 border-4 border-dotted border-t-0 w-1/2 border-indigo-700 mx-auto"/>
+      <hr className="mt-20 border-4 border-dotted border-t-0 w-1/2 hr-primary mx-auto"/>
       <Projects />
-      <hr className="mt-20 border-4 border-dotted border-t-0 w-1/2 border-indigo-700 mx-auto"/>
+      <hr className="mt-20 border-4 border-dotted border-t-0 w-1/2 hr-primary mx-auto"/>
       <Contact />
       <Footer />
     </div>
