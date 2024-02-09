@@ -22,10 +22,10 @@ function Navigation() {
         <a href="#tech"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Tech Stack</h4></a>
       </div>
       <div>
-        <a href="/"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Projects</h4></a>
+        <a href="#projects"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Projects</h4></a>
       </div>
       <div>
-        <a href="/"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Contact</h4></a>
+        <a href="#contact"><h4 className="text-white text-shadow hover:scale-110 hover:text-black hover:underline transition-transform mt-1">Contact</h4></a>
       </div>
       <div>
         <h6 className="text-white text-shadow mt-0.5 m-0 mt-1">{time}</h6>

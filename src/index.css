@@ -42,13 +42,23 @@
   }
 }
 
-@keyframes horiz-rule-load {
+@keyframes rocket {
   0% {
-    transform: translateX(150%);
+    transform: translateX(0%);
+    transfrom: translateY(0%);
   }
   100% {
-    transform: translateX(0%);
+    transform: translateX(100%);
+    transform: translateY(100%;);
   }
+}
+
+.rocket-takeoff {
+  animation: rocket 1s ease-in-out 0s 1 forwards;
+}
+
+.message::-webkit-scrollbar {
+  display: none; /* Will hide scroll bar but keep the functionality */
 }
 
 .text-xxs {
@@ -100,11 +110,6 @@ body {
 .tech-wrapper {
   animation: techstack-load 1.5s ease-in-out 0s 1 forwards;
   transform: translateX(-150%);
-}
-
-hr {
-  transform: translateX(150%);
-  animation: horiz-rule-load 1.5s ease-in-out 0s 1 forwards;
 }
 
 li {
