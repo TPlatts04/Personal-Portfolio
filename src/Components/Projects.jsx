@@ -3,7 +3,7 @@ import modernPage from "../modern-page.png"
 
 function Projects() {
   return(
-    <main className="project-wrapper mt-20">
+    <main className="project-wrapper mt-20" id="projects">
       <h1 className="text-white text-center md:text-4xl text-2xl font-bold mb-10 text-shadow-small-white">My Projects 🧑🏻‍💻</h1>
       <div className="flex flex-col">
         <div className="bg-slate-500 flex flex-col md:justify-evenly mb-10 p-4 md:max-w-5xl rounded-2xl shadow-lg shadow-slate-500 mx-auto mt-5 sm:flex-row">
