@@ -14,7 +14,7 @@ function Navigation() {
   }, 1000);
 
   return (
-    <nav className="navigation-bar fixed flex flex-row justify-around primary py-2 accent md:text-lg sm:text-md text-xs min-w-full gap-x-2 p-2" >
+    <nav className="navigation-bar fixed flex flex-row justify-around secondary py-2 accent md:text-lg sm:text-md text-xs min-w-full gap-x-2 p-2" >
       <div>
         <a href="#about"><h4 className=" text-shadow hover:scale-110 hover:underline transition-transform mt-1">About Me</h4></a>
       </div>

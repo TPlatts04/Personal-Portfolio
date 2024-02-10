@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="mt-20">
-      <div className="primary flex md:flex-row flex-col justify-center py-5 accent">
+      <div className="secondary flex md:flex-row flex-col justify-center py-5 accent">
         <div className="md:mr-20 md:self-center mx-auto">
           <h1>Created By: Thomas Platts</h1>
           <h4>Email: tomplattsbse@hotmail.com</h4>
